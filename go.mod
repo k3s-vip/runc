@@ -8,7 +8,7 @@ go 1.22
 toolchain go1.22.4
 
 require (
-	github.com/checkpoint-restore/go-criu/v6 v6.3.0
+	github.com/checkpoint-restore/go-criu/v7 v7.2.0
 	github.com/cilium/ebpf v0.16.0
 	github.com/containerd/console v1.0.4
 	github.com/coreos/go-systemd/v22 v22.5.0
@@ -28,7 +28,7 @@ require (
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/net v0.33.0
 	golang.org/x/sys v0.28.0
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.34.2
 )
 
 require (
