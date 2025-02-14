@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	criu "github.com/checkpoint-restore/go-criu/v6/rpc"
+	criu "github.com/checkpoint-restore/go-criu/v7/rpc"
 	"github.com/moby/sys/userns"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
