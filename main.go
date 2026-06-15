@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	//nolint:revive // Enable cgroup manager to manage devices
-	_ "github.com/opencontainers/cgroups/devices"
+	_ "github.com/opencontainers/runc/libcontainer/cgroups/devices"
 	"github.com/opencontainers/runc/libcontainer/seccomp"
 	"github.com/opencontainers/runtime-spec/specs-go"
 

@@ -7,7 +7,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 
-	"github.com/opencontainers/cgroups/systemd"
+	"github.com/opencontainers/runc/libcontainer/cgroups/systemd"
 )
 
 func shouldUseRootlessCgroupManager(context *cli.Context) (bool, error) {
