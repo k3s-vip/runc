@@ -21,11 +21,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 
-	"github.com/opencontainers/cgroups"
-	devices "github.com/opencontainers/cgroups/devices/config"
-	"github.com/opencontainers/cgroups/fs2"
 	"github.com/opencontainers/runc/internal/pathrs"
 	"github.com/opencontainers/runc/internal/sys"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
+	devices "github.com/opencontainers/runc/libcontainer/cgroups/devices/config"
+	"github.com/opencontainers/runc/libcontainer/cgroups/fs2"
 	"github.com/opencontainers/runc/libcontainer/configs"
 	"github.com/opencontainers/runc/libcontainer/utils"
 )

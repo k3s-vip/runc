@@ -18,9 +18,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 
-	"github.com/opencontainers/cgroups"
-	devices "github.com/opencontainers/cgroups/devices/config"
 	"github.com/opencontainers/runc/internal/pathrs"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
+	devices "github.com/opencontainers/runc/libcontainer/cgroups/devices/config"
 	"github.com/opencontainers/runc/libcontainer/configs"
 	"github.com/opencontainers/runc/libcontainer/internal/userns"
 	"github.com/opencontainers/runc/libcontainer/seccomp"

@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strconv"
 
-	"github.com/opencontainers/cgroups"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
 	"github.com/sirupsen/logrus"
 
 	"github.com/docker/go-units"

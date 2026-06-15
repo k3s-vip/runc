@@ -15,11 +15,11 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/opencontainers/cgroups"
-	"github.com/opencontainers/cgroups/systemd"
 	"github.com/opencontainers/runc/internal/linux"
 	"github.com/opencontainers/runc/internal/pathrs"
 	"github.com/opencontainers/runc/libcontainer"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/opencontainers/runc/libcontainer/cgroups/systemd"
 	"github.com/opencontainers/runc/libcontainer/configs"
 	"github.com/opencontainers/runc/libcontainer/internal/userns"
 	"github.com/opencontainers/runtime-spec/specs-go"
